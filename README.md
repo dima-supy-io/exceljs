@@ -9,13 +9,18 @@ Guys from ExcelJS promise this fix will be released with next major version (v5)
 
 <a href="https://github.com/exceljs/exceljs/pull/2558">Original PR with applied fix</a>
 
+# Installation
+
+```bash
+npm install @dima-supy-io/exceljs
+```
 
 # Whats new!
 To use streams correctly just write:
 
 ```javascript
 import * as fs from 'fs';
-import { stream } from 'exceljs';
+import { stream } from '@dima-supy-io/exceljs';
 
 const output_file_name = "/test.xlsx";
 
@@ -39,7 +44,7 @@ or with Google Storage Bucket:
 
 ```javascript
 import { PassThrough } from 'stream';
-import { stream } from 'exceljs';
+import { stream } from '@dima-supy-io/exceljs';
 import { Storage } from '@google-cloud/storage';
 import WorkbookWriter = stream.xlsx.WorkbookWriter;
 

@@ -1,16 +1,13 @@
 {
-  "name": "exceljs",
+  "name": "@dima-supy-io/exceljs",
   "version": "1.0.0",
   "description": "Fixes the problem with writing a file using streams and not using RAM based on 'exeljs'",
   "private": false,
   "license": "MIT",
-  "author": {
-    "name": "Dima Supy",
-    "email": "dima@supy.io"
-  },
+  "author": "Dima Supy <dima@supy.io>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dima-supy-io/exceljs.git"
+    "url": "git+https://github.com/dima-supy-io/exceljs.git"
   },
   "engines": {
     "node": ">=8.3.0"
@@ -145,5 +142,13 @@
     "sax": "^1.2.4",
     "ts-node": "^8.10.2",
     "typescript": "^3.9.7"
+  },
+  "bugs": {
+    "url": "https://github.com/dima-supy-io/exceljs/issues"
+  },
+  "homepage": "https://github.com/dima-supy-io/exceljs#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
   }
 }
