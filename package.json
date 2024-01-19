@@ -1,16 +1,16 @@
 {
   "name": "exceljs",
-  "version": "4.4.0",
-  "description": "Excel Workbook Manager - Read and Write xlsx and csv Files.",
+  "version": "1.0.0",
+  "description": "Fixes the problem with writing a file using streams and not using RAM based on 'exeljs'",
   "private": false,
   "license": "MIT",
   "author": {
-    "name": "Guyon Roche",
-    "email": "guyon@live.com"
+    "name": "Dima Supy",
+    "email": "dima@supy.io"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/exceljs/exceljs.git"
+    "url": "https://github.com/dima-supy-io/exceljs.git"
   },
   "engines": {
     "node": ">=8.3.0"
